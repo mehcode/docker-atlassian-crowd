@@ -1,8 +1,9 @@
 FROM java:8
 
+ARG CROWD_VERSION
+
 ENV CROWD_HOME      /var/atlassian/crowd
 ENV CROWD_INSTALL   /opt/atlassian/crowd
-ENV CROWD_VERSION   2.11.1
 
 # Install Atlassian Crowd
 RUN set -x \
