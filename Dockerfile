@@ -1,6 +1,6 @@
 FROM java:8
 
-ARG CROWD_VERSION
+ARG CROWD_VERSION=2.11.1
 
 ENV CROWD_HOME      /var/atlassian/crowd
 ENV CROWD_INSTALL   /opt/atlassian/crowd
